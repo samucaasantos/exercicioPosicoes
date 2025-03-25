@@ -22,7 +22,7 @@ public class Program {
         for (int i = 0; i < numeros.length ; i++) {
             if (maior < numeros[i]) {
                 maior = numeros[i];
-                pos = i;
+                pos = i+1;
             }
         }
         System.out.printf("MAIOR VALOR = %.1f%n", maior );
